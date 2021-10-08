@@ -1,4 +1,4 @@
-function switchTab(tabParent = 'parent-tab', contentClass = 'сontent-item', tabClass = 'tab-item', classShow = 'show', classHide = 'hide') {
+function switchTab(tabParent = 'parent-tab', tabClass = 'tab-item', contentClass = 'сontent-item', classShow = 'show', classHide = 'hide') {
     let content = document.querySelectorAll('.' + contentClass),
         tab = document.querySelectorAll('.' + tabClass),
         parent = document.querySelector('.' + tabParent);
